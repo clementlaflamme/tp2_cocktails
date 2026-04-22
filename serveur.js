@@ -31,7 +31,7 @@ async function lireFichierCocktails() {
 
 async function ecrireFichierCocktails(tabCocktails) {
   const contenu = JSON.stringify(tabCocktails, null, 2);
-  await writeFile(FICHIER_FILMS, contenu, "utf-8");
+  await writeFile(FICHIER_COCKTAILS, contenu, "utf-8");
 }
 
 app.use(express.json());
