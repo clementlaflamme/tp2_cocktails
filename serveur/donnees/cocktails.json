@@ -1,0 +1,251 @@
+[
+  {
+    "id": 1,
+    "name": "Mojito",
+    "category": "Long cocktail",
+    "ingredients": [
+      { "ingredient": "Rhum blanc", "amount": 5, "unit": "cl" },
+      { "ingredient": "Menthe fraîche", "amount": 6, "unit": "feuilles" },
+      { "ingredient": "Citron vert", "amount": 0.5, "unit": "pièce" },
+      { "ingredient": "Sucre de canne", "amount": 2, "unit": "c.à.c" },
+      { "ingredient": "Eau gazeuse", "amount": 10, "unit": "cl" }
+    ],
+    "price": 12.50,
+    "image": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Old Fashioned",
+    "category": "Cocktail d'avant le souper",
+    "ingredients": [
+      { "ingredient": "Bourbon", "amount": 4.5, "unit": "cl" },
+      { "ingredient": "Angostura Bitters", "amount": 2, "unit": "traits" },
+      { "ingredient": "Sucre", "amount": 1, "unit": "morceau" },
+      { "ingredient": "Eau", "amount": 1, "unit": "trait" }
+    ],
+    "price": 14.00,
+    "image": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Margarita",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Tequila", "amount": 3.5, "unit": "cl" },
+      { "ingredient": "Triple Sec", "amount": 2, "unit": "cl" },
+      { "ingredient": "Jus de citron vert", "amount": 1.5, "unit": "cl" }
+    ],
+    "price": 11.00,
+    "image": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Piña Colada",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Rhum blanc", "amount": 3, "unit": "cl" },
+      { "ingredient": "Jus d'ananas", "amount": 9, "unit": "cl" },
+      { "ingredient": "Lait de coco", "amount": 3, "unit": "cl" }
+    ],
+    "price": 10.50,
+    "image": "https://www.liquor.com/thmb/xcDUOpwXWVnbOfTvJ0uHWElVawE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__02__13090826__pina-colada-720x720-recipe-253f1752769447f6998afd2b9469c24e.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dry Martini",
+    "category": "Cocktail",
+    "ingredients": [
+      { "ingredient": "Gin", "amount": 6, "unit": "cl" },
+      { "ingredient": "Vermouth sec", "amount": 1, "unit": "cl" }
+    ],
+    "price": 13.00,
+    "image": "https://recetasdecocina.elmundo.es/wp-content/uploads/2022/04/dry-martini.png"
+  },
+  {
+    "id": 6,
+    "name": "Daiquiri",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Rhum blanc", "amount": 4.5, "unit": "cl" },
+      { "ingredient": "Jus de citron vert", "amount": 2.5, "unit": "cl" },
+      { "ingredient": "Sirop de sucre", "amount": 1.5, "unit": "cl" }
+    ],
+    "price": 9.50,
+    "image": "https://fineartbartending.ca/cdn/shop/articles/Daiquiri-2.png?v=1728926445"
+  },
+  {
+    "id": 7,
+    "name": "Negroni",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Gin", "amount": 3, "unit": "cl" },
+      { "ingredient": "Campari", "amount": 3, "unit": "cl" },
+      { "ingredient": "Vermouth rouge", "amount": 3, "unit": "cl" }
+    ],
+    "price": 13.50,
+    "image": "https://cdn.shopify.com/s/files/1/0488/6642/7045/files/CP_Cocktail_Negroni_600x600.png?v=1648831385"
+  },
+  {
+    "id": 8,
+    "name": "Whiskey Sour",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Bourbon", "amount": 4.5, "unit": "cl" },
+      { "ingredient": "Jus de citron", "amount": 3, "unit": "cl" },
+      { "ingredient": "Sirop de sucre", "amount": 1.5, "unit": "cl" },
+      { "ingredient": "Blanc d'œuf", "amount": 1, "unit": "cl" }
+    ],
+    "price": 12.00,
+    "image": "https://jennifercooks.com/wp-content/uploads/2024/05/best-whiskey-sour-cocktail-with-fresh-lemon-recipe-jennifercooks-1-500x375.png"
+  },
+  {
+    "id": 9,
+    "name": "Manhattan",
+    "category": "Cocktail",
+    "ingredients": [
+      { "ingredient": "Rye Whiskey", "amount": 5, "unit": "cl" },
+      { "ingredient": "Vermouth rouge", "amount": 2, "unit": "cl" },
+      { "ingredient": "Angostura Bitters", "amount": 1, "unit": "trait" }
+    ],
+    "price": 14.50,
+    "image": "https://images.getrecipekit.com/20240721031908-recipe-20blog-20photos-20-62.png?width=650&quality=90&"
+  },
+  {
+    "id": 10,
+    "name": "Espresso Martini",
+    "category": "Cocktail",
+    "ingredients": [
+      { "ingredient": "Vodka", "amount": 5, "unit": "cl" },
+      { "ingredient": "Kahlúa", "amount": 1, "unit": "cl" },
+      { "ingredient": "Espresso", "amount": 1, "unit": "tasse" },
+      { "ingredient": "Sirop de sucre", "amount": 1, "unit": "trait" }
+    ],
+    "price": 13.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeO5sNmDtDO45rCkznUDY7vdDLCcXIHwmM3Q&s"
+  },
+  {
+    "id": 11,
+    "name": "Cosmopolitan",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Vodka Citron", "amount": 4, "unit": "cl" },
+      { "ingredient": "Cointreau", "amount": 1.5, "unit": "cl" },
+      { "ingredient": "Jus de citron vert", "amount": 1.5, "unit": "cl" },
+      { "ingredient": "Jus de canneberge", "amount": 3, "unit": "cl" }
+    ],
+    "price": 11.50,
+    "image": "https://fineartbartending.ca/cdn/shop/articles/Cosmopolitan-Cocktail-1.png?v=1729555493"
+  },
+  {
+    "id": 12,
+    "name": "Moscow Mule",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Vodka", "amount": 4.5, "unit": "cl" },
+      { "ingredient": "Ginger Beer", "amount": 12, "unit": "cl" },
+      { "ingredient": "Jus de citron vert", "amount": 1, "unit": "cl" }
+    ],
+    "price": 12.00,
+    "image": "https://alambika.ca/cdn/shop/articles/img-1679580996416.png?v=1679581095&width=480"
+  },
+  {
+    "id": 13,
+    "name": "Bloody Mary",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Vodka", "amount": 4.5, "unit": "cl" },
+      { "ingredient": "Jus de tomate", "amount": 9, "unit": "cl" },
+      { "ingredient": "Jus de citron", "amount": 1.5, "unit": "cl" },
+      { "ingredient": "Worcestershire", "amount": 2, "unit": "traits" }
+    ],
+    "price": 11.00,
+    "image": "https://www.liquor.com/thmb/UqNV_Qif2Pg1-OaMBF2YZ0KZOlk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/BloodyMaria-dc08d3c3846c4104bcb2cba9d344a501.png"
+  },
+  {
+    "id": 14,
+    "name": "Mai Tai",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Rhum ambré", "amount": 4, "unit": "cl" },
+      { "ingredient": "Rhum blanc", "amount": 2, "unit": "cl" },
+      { "ingredient": "Curaçao orange", "amount": 1.5, "unit": "cl" },
+      { "ingredient": "Sirop d'orgeat", "amount": 1.5, "unit": "cl" }
+    ],
+    "price": 14.00,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVvEdVbhpZ0NOJfqXeJfRgULPFx5qpHG38JA&s"
+  },
+  {
+    "id": 15,
+    "name": "Tequila Sunrise",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Tequila", "amount": 4.5, "unit": "cl" },
+      { "ingredient": "Jus d'orange", "amount": 9, "unit": "cl" },
+      { "ingredient": "Grenadine", "amount": 1.5, "unit": "cl" }
+    ],
+    "price": 11.50,
+    "image": "https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Sex on the Beach",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Vodka", "amount": 4, "unit": "cl" },
+      { "ingredient": "Schnapps pêche", "amount": 2, "unit": "cl" },
+      { "ingredient": "Jus d'orange", "amount": 4, "unit": "cl" },
+      { "ingredient": "Jus canneberge", "amount": 4, "unit": "cl" }
+    ],
+    "price": 12.00,
+    "image": "https://tresdou.com/wp-content/uploads/2026/01/Sex-on-The-Beach-Recette-originale.png"
+  },
+  {
+    "id": 17,
+    "name": "Gin Fizz",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Gin", "amount": 4.5, "unit": "cl" },
+      { "ingredient": "Jus de citron", "amount": 3, "unit": "cl" },
+      { "ingredient": "Sirop de sucre", "amount": 1, "unit": "cl" },
+      { "ingredient": "Eau gazeuse", "amount": 8, "unit": "cl" }
+    ],
+    "price": 10.00,
+    "image": "https://cdn.shopify.com/s/files/1/2446/9187/files/Amuerte_GIN_FIZZ_01.png?v=1753780544"
+  },
+  {
+    "id": 18,
+    "name": "White Russian",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Vodka", "amount": 5, "unit": "cl" },
+      { "ingredient": "Kahlúa", "amount": 2, "unit": "cl" },
+      { "ingredient": "Crème fraîche", "amount": 3, "unit": "cl" }
+    ],
+    "price": 12.50,
+    "image": "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Aperol Spritz",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Prosecco", "amount": 9, "unit": "cl" },
+      { "ingredient": "Aperol", "amount": 6, "unit": "cl" },
+      { "ingredient": "Eau gazeuse", "amount": 3, "unit": "cl" }
+    ],
+    "price": 10.50,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9VCwaM9cULajskZ-lwE3BiV-c7xIswbKO8w&s"
+  },
+  {
+    "id": 20,
+    "name": "Dark 'n' Stormy",
+    "category": "Cocktail ordinaire",
+    "ingredients": [
+      { "ingredient": "Rhum ambré", "amount": 6, "unit": "cl" },
+      { "ingredient": "Ginger Beer", "amount": 10, "unit": "cl" },
+      { "ingredient": "Jus de citron vert", "amount": 1, "unit": "trait" }
+    ],
+    "price": 13.00,
+    "image": "https://goodineverygrain.ca/wp-content/uploads/2022/05/Dark-and-Stormy-1024x683.png"
+  }
+]
