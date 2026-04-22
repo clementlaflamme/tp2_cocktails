@@ -6,12 +6,9 @@ let tousLesCocktails = [];
 function genererAffichage(listeAAfficher) {
   const conteneur = document.getElementById("lst_cocktails");
 
-  conteneur.classList.add("container-cards");
-
   if (!conteneur) return;
 
   if (listeAAfficher.length === 0) {
-    conteneur.classList.remove("container-cards");
     conteneur.innerHTML =
       "<p>Aucun cocktail ne correspond à votre recherche.</p>";
 
@@ -27,7 +24,7 @@ function genererAffichage(listeAAfficher) {
 
       return `
           <article>
-          <div class="card h-100 shadow-sm card-hover">
+          <div class="card card-cocktail shadow-sm card-hover">
           <img src="${cocktail.image}" onerror="this.onerror=null; this.src='/images/cocktail-default.png';" alt="" class="card-img-top img-card">
           <div class="card-body">
             <h2 class="card-title">${cocktail.name || "N/A"}</h2>

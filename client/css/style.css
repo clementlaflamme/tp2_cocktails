@@ -4,12 +4,17 @@
 }
 
 .container-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
+
+.card-cocktail {
+  width: 300px;
+  height: 100%;
+}
+
 .card-hover {
   transition:
     transform 0.3s ease,
@@ -48,15 +53,15 @@
   border-color: #adb5bd;
 }
 #list-ingredients {
-    max-height: 350px;
-    overflow-y: auto;  
-    overflow-x: hidden; 
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #list-ingredients::-webkit-scrollbar {
-    width: 6px;
+  width: 6px;
 }
 #list-ingredients::-webkit-scrollbar-thumb {
-    background: #ccc;
-    border-radius: 10px;
+  background: #ccc;
+  border-radius: 10px;
 }
