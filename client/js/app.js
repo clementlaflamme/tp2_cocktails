@@ -13,9 +13,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Revenir à la page d'acceuil
-document
-  .querySelector("#home-button")
-  .addEventListener("click", (e) => afficherListeCocktails());
+document.querySelector("#home-button").addEventListener("click", (e) => {
+  e.preventDefault();
+  afficherListeCocktails();
+});
 
 // Récupère la saisie de la barre de recherche
 const searchBar = document.querySelector("input[type='search']");
@@ -46,7 +47,7 @@ document.querySelector("#filter-price").addEventListener("click", (e) => {
   filtrerParPrix(prixMin, prixMax);
 });
 
-// Écoute pour un clic dans le menu déroulant des ingrédients, 
+// Écoute pour un clic dans le menu déroulant des ingrédients,
 // puis appelle listerSelonIngredient selon l'ingrédient cliqué
 document.querySelector("#list-ingredients").addEventListener("click", (e) => {
   const lien = e.target.closest(".ingredient");
